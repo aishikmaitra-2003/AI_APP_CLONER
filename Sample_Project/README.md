@@ -1,1 +1,11 @@
-# React + Flask Generated App\n\n## Backend\n1. Create a Python virtual environment and activate it.\n2. Install dependencies: `pip install -r requirements.txt`\n3. Run backend: `python server.py`\n\nThe backend exposes `/api/data` and `/api/<path>` endpoints, and serves the frontend build from `frontend/dist` if present.\n\n## Frontend\n1. `cd frontend`\n2. `npm install`\n3. `npm run dev` (for development) or `npm run build` then copy `dist` to `frontend/dist` for the backend to serve the built app.\n
+# React + Flask Generated App\n
+
+Backend:  Create a Python virtual environment and activate it.
+
+Install dependencies: `pip install -r requirements.txt`
+
+Run backend: `python server.py`
+
+The backend exposes `/api/data` and `/api/<path>` endpoints, and serves the frontend build from `frontend/dist` if present.
+
+Frontend\n1. `cd frontend`\n2. `npm install`\n3. `npm run dev` (for development) or `npm run build` then copy `dist` to `frontend/dist` for the backend to serve the built app.\n
